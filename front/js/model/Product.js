@@ -15,7 +15,7 @@ export default class Product {
      * @returns {String} html du produit
      */
     toHtml() {
-        return `<a href="./product.html?id=${this._id}">
+        return `<a href="html/product.html?id=${this._id}">
                     <article>
                     <img src="${this.imageUrl}" alt="Photographie d'un canapé Kanap ${this.name}">
                     <h3>${this.name}</h3>
