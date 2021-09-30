@@ -76,7 +76,7 @@ export default class Basket {
      * @returns {int} la quantité de produit dans le panier
      */
     static getTotalQuantity() {
-        if (this.get().length > 1) {
+        if (this.get().length >= 1) {
             return this.get().map(product => product.quantity).reduce((total, quantity) => total += quantity)
         } else {
             return 0;
@@ -88,7 +88,7 @@ export default class Basket {
      * @returns {[string]} Un tableau contenant les id des produits du panier
      */
     static getListProductId() {
-        if (this.get().length > 1) {
+        if (this.get().length >= 1) {
             return this.get().map(product => product._id);
         } else {
             return [];
