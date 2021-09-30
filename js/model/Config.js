@@ -4,7 +4,7 @@ export default class Config {
      * @returns {Config} la configuration de l'application
      */
     static async getConfig() {
-        let config = await fetch("/js/config.json");
+        let config = await fetch("./js/config.json");
         return Object.assign(new Config(), await config.json());
     }
 
