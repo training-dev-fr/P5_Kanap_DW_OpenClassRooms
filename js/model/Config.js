@@ -13,6 +13,15 @@ export default class Config {
      * @returns {string} le chemin de base du server
      */
     getServerPath() {
-        return `${(this.ssl)?"https://":"http://"}${this.host}:${this.port}/api/products`;
+        let path = "http";
+        if (this.ssl) {
+            path += "s";
+        }
+        path += "://" + this.host;
+        if (this.port) {
+            path += ":" + this.port;
+        }
+        path += "/api/products";
+        return path;
     }
 }
