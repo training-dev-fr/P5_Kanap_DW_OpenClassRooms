@@ -58,7 +58,7 @@ export default class Basket {
      * @returns {int} le prix total du panier
      */
     static getTotalPrice() {
-        if (this.get().length > 1) {
+        if (this.get().length >= 1) {
             let basket = this.get();
             let total = 0;
             for (let product of basket) {
