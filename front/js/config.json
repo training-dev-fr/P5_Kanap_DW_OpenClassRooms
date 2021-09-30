@@ -1,4 +1,4 @@
 {
-    "host": "https://kanap-p5.herokuapp.com/",
+    "host": "https://kanap-p5.herokuapp.com",
     "ssl": true
 }
