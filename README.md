@@ -1,8 +1,10 @@
 
 # P5-Kanap - Construisez un site e-commerce en JavaScript
 
+<p align="center">
+  <img src="https://user.oc-static.com/upload/2021/09/29/16329291678171_image2.png">
+</p>
 
-![](https://user.oc-static.com/upload/2021/09/29/16329291678171_image2.png)
 ## Backend
 Le dossier back permet de faire tourner l'api contenant les données des produits.
 ### Installation
