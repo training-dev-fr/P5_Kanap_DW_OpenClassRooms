@@ -77,6 +77,11 @@ h2 {
 
 .informations a {
     color: white;
+    text-decoration: none;
+}
+
+.informations__github img {
+    width: 25px;
 }
 
 .informations img {
