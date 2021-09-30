@@ -42,3 +42,5 @@ Le frontend présente la partie utilisateur de l'application. Il doit être lanc
 
 ### Config
 Le fichier de config permet de définir l'adresse de base du server, avec son host, port et si un certificat ssl est utilisé ou non. 
+
+retrouvez tous nos cours, tutos, lives et exercices sur <a href="https://www.training-dev.fr">training-dev.fr</a>
