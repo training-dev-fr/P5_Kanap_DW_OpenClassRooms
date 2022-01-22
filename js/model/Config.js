@@ -4,7 +4,7 @@ export default class Config {
      * @returns {Config} la configuration de l'application
      */
     static async getConfig() {
-        let config = await fetch("/P5-Kanap/js/config.json");
+        let config = await fetch("../config.json");
         return Object.assign(new Config(), await config.json());
     }
 
